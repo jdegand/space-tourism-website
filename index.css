@@ -80,11 +80,11 @@ body {
     background-color: hsl(var(--clr-dark));
     line-height: 1.5;
     min-height: 100vh;
-
     display: grid;
     grid-template-rows: min-content 1fr;
-
     overflow-x: hidden;
+    background-size: cover;
+    background-position: bottom center;
 }
 
 /* make images easier to work with */
@@ -278,6 +278,7 @@ select {
     font-style: var(--ff-sans-cond);
     letter-spacing: 4.72px;
     text-transform: uppercase;
+    grid-area: title;
 }
 
 .numbered-title span {
@@ -504,13 +505,6 @@ select {
     color: hsl(var(--clr-dark));
 }
 
-/* Page specific background      */
-
-body {
-    background-size: cover;
-    background-position: bottom center;
-}
-
 /* home */
 .home {
     background-image: url(./assets/home/background-home-mobile.jpg);
@@ -596,10 +590,6 @@ body {
 
 .grid-container p:not([class]) {
     max-width: 50ch;
-}
-
-.numbered-title {
-    grid-area: title;
 }
 
 /* destination layout */
