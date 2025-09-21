@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Design system</title>
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
@@ -111,9 +112,9 @@
                 <nav>
                     <ul class="primary-navigation underline-indicators flex">
                         <li class="active"><a class="uppercase text-white letter-spacing-2"
-                                href="#"><span>01</span>Active</a>
-                        <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span>Hovered</a>
-                        <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span>Idle</a>
+                                href="#"><span>01</span>Active</a></li>
+                        <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span>Hovered</a></li>
+                        <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span>Idle</a></li>
                     </ul>
                 </nav>
             </div>
@@ -126,12 +127,12 @@
 
                 <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
                     <!-- Tabs -->
-                    <div class="tab-list underline-indicators flex">
-                        <button aria-selected="true"
+                    <div class="tab-list underline-indicators flex" role="tablist">
+                        <button role="tab" aria-selected="true"
                             class="uppercase ff-sans-cond text-accent letter-spacing-2">Moon</button>
-                        <button aria-selected="false"
+                        <button role="tab" aria-selected="false"
                             class="uppercase ff-sans-cond text-accent letter-spacing-2">Mars</button>
-                        <button aria-selected="false"
+                        <button role="tab" aria-selected="false"
                             class="uppercase ff-sans-cond text-accent letter-spacing-2">Europa</button>
                     </div>
 
@@ -144,7 +145,6 @@
 
                     <!-- Numbers -->
 
-
                     <div class="number-indicators grid">
                         <button aria-selected="true">1</button>
                         <button aria-selected="false">2</button>
@@ -155,7 +155,6 @@
             </div>
 
         </section>
-
 
     </div>
 
