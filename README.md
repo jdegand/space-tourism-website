@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website solution
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,9 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./space-tourism-tech-desktop.png)
-![](./space-tourism-tech-mobile.png)
-
+![Desktop](screenshots/space-tourism-tech-desktop.png)
+![Mobile](screenshots/space-tourism-tech-mobile.png)
 
 ### Links
 
@@ -52,7 +51,7 @@ I actually wanted to complete this without deviating too much.  I need to improv
 - A Few Takeaways:
   - You can have multiple headers on a page.
   - Put images inside a div.  The div will be the flex item.  Flex on images === bugs.
-  - Don't break up headlines just to make styling easier.  Use spans and work around it. 
+  - Don't break up headlines just to make styling easier.  Use spans and work around it.
   - Subtitles should use a paragraph tag.
   - Grid is a inner display value.
   - Viewport units don't response to zooming in and out.
@@ -61,16 +60,16 @@ I actually wanted to complete this without deviating too much.  I need to improv
   - Remember, data-attributes are 'strings'.
   - You can't animate background images.
   - In keyboard navigation, the spacebar triggers the click event.  Don't need extra event listener.
-  - where/is css - where doesn't add specificity. 
+  - where/is css - where doesn't add specificity.
   - aspect-ratio: width / height
 
 ### Continued development
 
 - The crew page pictures might be a little too large.  
-- I had issues with using hidden on a picture element.  I created a utility class of d-none to hide the content instead. 
+- I had issues with using hidden on a picture element.  I created a utility class of d-none to hide the content instead.
 - Use data.json() and fetch data from it when user click link to page / tab.
 - Adjust padding / gaps to ensure everything fits into viewport height.  No more scrollbar.  
-- Technology page only has mobile and desktop pictures.  Not webp either.  Thus, tablet view is compromised. 
+- Technology page only has mobile and desktop pictures.  Not webp either.  Thus, tablet view is compromised.
 
 ### Useful resources
 
